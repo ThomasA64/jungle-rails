@@ -1,3 +1,6 @@
+
+<% if cart.length > 0 %>
+
 <section class="cart-show">
 
   <header class="page-header">
@@ -50,3 +53,8 @@
   </div>
 
 </section>
+       
+<% else %>
+<li class="alert alert-danger" role="alert"><%= 'Your cart is empty. Please click on continue shopping to go back to the main page.' %></li>
+<%= link_to "Continue Shopping", root_path %>
+<% end %>
