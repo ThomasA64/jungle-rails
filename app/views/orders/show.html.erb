@@ -14,4 +14,12 @@
       <%= render 'render_line_item', product: render_line_item.product, quantity: render_line_item.quantity.to_i %>
       <% end %>
 
+    <div> 
+    <h3>Order Total</h3>
+      <h4> <% humanized_money_with_symbol @order.total %></h4>
+      </div>
+
+      <div> 
+      <%= link_to "Continue Shopping", root_path %>
+      </div>
     </section>
