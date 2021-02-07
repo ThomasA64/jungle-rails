@@ -9,4 +9,9 @@
     <h6><%= @order.email %></h6>
     </div>
   
+    <div> 
+    <% @order.line_items.each do |render_line_item| %>
+      <%= render 'render_line_item', product: render_line_item.product, quantity: render_line_item.quantity.to_i %>
+      <% end %>
+
     </section>
