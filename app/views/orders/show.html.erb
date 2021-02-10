@@ -6,6 +6,7 @@
 
   <div class="order-summary jumbotron">
     <h4>Thank you for your order!</h4>
+    <h5><%= %></h5>
     <h6><%= @order.email %></h6>
     </div>
   
@@ -15,8 +16,8 @@
       <% end %>
 
     <div> 
-    <h3>Order Total</h3>
-      <h4> <% humanized_money_with_symbol @order.total %></h4>
+    <h3>Order Total:</h3>
+      <h4> <%= humanized_money_with_symbol @order.total %></h4>
       </div>
 
       <div> 
