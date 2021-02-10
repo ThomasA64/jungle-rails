@@ -10,6 +10,12 @@ Choose from many wacky inventions including the Electric Chair, Human Feet Shoes
 
 Who needs plain boring common items found on Amazon when you have access to the world's most interesting items?!
 
+## Screenshots
+!["Jungle Home Page"](https://github.com/ThomasA64/jungle-rails/blob/master/docs/JungleHome.png?raw=true)
+!["Jungle Item Description"](https://github.com/ThomasA64/jungle-rails/blob/master/docs/ItemECJungle.png?raw=true)
+!["Jungle Cart Checkout"](https://github.com/ThomasA64/jungle-rails/blob/master/docs/CartJungle.png?raw=true)
+
+
 ## Setup
 
 1. Run `bundle install` to install dependencies
