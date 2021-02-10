@@ -1,7 +1,14 @@
 # Jungle
 
-A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+Welcome to the Jungle! 
 
+Jungle is a mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+
+The main paige has many wacky hipster inventions avaliable for purchase!
+
+Choose from many wacky inventions including the Electric Chair, Human Feet Shoes and Modern Skateboards!
+
+Who needs plain boring common items found on Amazon when you have access to the world's most interesting items?!
 
 ## Setup
 
